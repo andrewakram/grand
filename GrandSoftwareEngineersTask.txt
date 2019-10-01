@@ -1,0 +1,66 @@
+=============================================================
+===================== Grand Task ============================ 
+=============================================================
+According to the task in file (GrandSoftwareEngineersTask.pdf)
+-create a database in phpmyadmin called (grand)
+-then, import the database in file (grand.sql)
+-you can find the admin panel in link (localhost/grand/public)
+-you can login to admin panel with
+        (email: andrew@andrew.com & pass : asd12345$)
+-you can test apis in links below
+=============================================================
+1-Register  for customer
+	>func. POST
+	>parameters:
+		-name
+		-email
+		-password
+	>link: 
+		-localhost/grand/public/api/register/customer
+=============================================================
+2-Login  for customer
+	>func. POST
+	>Headers:
+		-token
+	>parameters:
+		-email
+		-password
+	>link: 
+		-localhost/grand/public/api/login/customer
+=============================================================
+3-Logout  for customer
+	>func. POST
+	>Headers:
+		-token
+	>parameters:
+		-email
+	>link: 
+		-localhost/grand/public/api/logout/customer
+=============================================================
+4-show Barbers List
+	>func. POST
+	>Headers:
+		-token [ optional ]
+	>link: 
+		-localhost/grand/public/api/show/barbersList
+=============================================================
+5-like Barber Shop
+	>func. POST
+	>Headers:
+		-token
+	>parameters:
+		-barberId
+		-is_favorite [ True/False ]
+	>link: 
+		-localhost/grand/public/api/like/barberShop
+=============================================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================================================
+B === Solving Problem ===
+	>func. POST
+	>parameters:
+		-n
+	>link:
+		-http://localhost/grand/public/api/solving/problem
+=============================================================
+=============================================================
