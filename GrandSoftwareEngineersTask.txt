@@ -20,8 +20,6 @@ According to the task in file (GrandSoftwareEngineersTask.pdf)
 =============================================================
 2-Login  for customer
 	>func. POST
-	>Headers:
-		-token
 	>parameters:
 		-email
 		-password
